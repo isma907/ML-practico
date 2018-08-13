@@ -90,7 +90,7 @@ export class Producto extends Component {
                         <h1 className="product-title">{this.product_data.title}</h1>
                         <h2 className="product-price">$ {this.product_data.price}</h2>
                         <div className="product-btn-container">
-                            <a className="btn btn-lg btn-comprar">Comprar</a>
+                            <a className="btn btn-lg btn-comprar" href={this.product_data.permalink} target="_blank">Comprar</a>
                         </div>
                     </div>
                 </div>
